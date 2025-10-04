@@ -8,7 +8,6 @@ A small app to reset your mouse position and open a simple UI.
 
 ## 📦 Requirements
 Make sure you have Python installed, then run:
-![Copy Icon](assets/copy-icon.png)
 ```bash
 pip install pyautogui
 pip install keyboard
@@ -26,3 +25,4 @@ and to build the app run this
 ```bash
 pyinstaller --onefile --noconsole --icon=mouse_icon.ico Mouse.py
 ```
+![Alt text](mouse_icon.png)
