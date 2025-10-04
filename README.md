@@ -1,3 +1,5 @@
+                                                                                  The Mouse Reset Position app
+to reset position press "home" to open the ui press "home + end"
 You have to have python and these packages
 pip install pyautogui
 pip install keyboard
