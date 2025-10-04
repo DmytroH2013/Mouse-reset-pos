@@ -1,12 +1,15 @@
-                                                                                  The Mouse Reset Position app
-to reset position press "home" to open the ui press "home + end"
-You have to have python and these packages
+# 🖱️ Mouse Reset Position
+
+A small app to reset your mouse position and open a simple UI.
+
+## 🔧 Usage
+- To **reset position**: press `Home`  
+- To **open the UI**: press `Home + End`
+
+## 📦 Requirements
+Make sure you have Python installed, then run:
+![Copy Icon](assets/copy-icon.png)
+```bash
 pip install pyautogui
 pip install keyboard
 pip install pillow
-If you want to build you need pyinstaller 
-pip install pyinstaller
-cd "The app location"
-pyinstaller --onefile --noconsole --icon=mouse_icon.ico Mouse.py
-To run the app go in to the build folder and there is a .exe run it it is called Mouse
-![Alt text](mouse_icon.png)
